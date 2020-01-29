@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import {Component, OnInit} from '@angular/core';
+declare var e:any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front-insat';
+
 }

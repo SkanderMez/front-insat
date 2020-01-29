@@ -28,9 +28,40 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/style-core.css",
+              "src/assets/css/kingster-style-custom.css",
+              "src/assets/plugins/goodlayers-core/plugins/combine/style.css",
+              "src/assets/plugins/goodlayers-core/include/css/page-builder.css",
+              "src/assets/plugins/revslider/public/assets/css/settings.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery/jquery.js",
+              "src/assets/js/jquery/jquery-migrate.min.js",
+              "src/assets/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js",
+              "src/assets/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js",
+              "src/assets/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js",
+              "src/assets/js/script1.js",
+              "src/assets/js/script2.js",
+              "src/assets/js/script3.js",
+              "src/assets/js/script4.js",
+              "src/assets/plugins/goodlayers-core/plugins/combine/script.js",
+              "src/assets/js/script5.js",
+              "src/assets/plugins/goodlayers-core/include/js/page-builder.js",
+              "src/assets/js/jquery/ui/effect.min.js",
+              "src/assets/js/script6.js",
+              "src/assets/js/plugins.min.js",
+              "src/assets/js/script7.js",
+              "src/assets/js/script8.js",
+              "src/assets/js/script9.js",
+              "src/assets/js/script10.js"
+            ]
           },
           "configurations": {
             "production": {
