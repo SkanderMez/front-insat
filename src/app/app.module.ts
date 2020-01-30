@@ -52,6 +52,23 @@ import { HomepageComponent } from './template-pages/homepage/homepage.component'
 import { HeaderComponent } from './template-pages/header/header.component';
 import { MobileHeaderComponent } from './template-pages/mobile-header/mobile-header.component';
 import { FooterComponent } from './template-pages/footer/footer.component';
+import { PortfolioTwoColumnsComponent } from './template-pages/portfolio-two-columns/portfolio-two-columns.component';
+import { PortfolioTwoColumnsNoSpaceComponent } from './template-pages/portfolio-two-columns-no-space/portfolio-two-columns-no-space.component';
+import { PortfolioTwoColumnsWithFrameComponent } from './template-pages/portfolio-two-columns-with-frame/portfolio-two-columns-with-frame.component';
+import { PortfolioThreeColumnsComponent } from './template-pages/portfolio-three-columns/portfolio-three-columns.component';
+import { PortfolioThreeColumnsNoSpaceComponent } from './template-pages/portfolio-three-columns-no-space/portfolio-three-columns-no-space.component';
+import { PortfolioFourColumnsWithFrameComponent } from './template-pages/portfolio-four-columns-with-frame/portfolio-four-columns-with-frame.component';
+import { PortfolioThreeColumnsWithFrameComponent } from './template-pages/portfolio-three-columns-with-frame/portfolio-three-columns-with-frame.component';
+import { PortfolioFourColumnsComponent } from './template-pages/portfolio-four-columns/portfolio-four-columns.component';
+import { PortfolioFourColumnsNoSpaceComponent } from './template-pages/portfolio-four-columns-no-space/portfolio-four-columns-no-space.component';
+import { PortfolioFiveColumnsComponent } from './template-pages/portfolio-five-columns/portfolio-five-columns.component';
+import { PortfolioFiveColumnsNoSpaceComponent } from './template-pages/portfolio-five-columns-no-space/portfolio-five-columns-no-space.component';
+import { PortfolioMasonryTwoColumnsComponent } from './template-pages/portfolio-masonry-two-columns/portfolio-masonry-two-columns.component';
+import { PortfolioMasonryTwoColumnsNoSpaceComponent } from './template-pages/portfolio-masonry-two-columns-no-space/portfolio-masonry-two-columns-no-space.component';
+import { PortfolioMasonryThreeColumnsComponent } from './template-pages/portfolio-masonry-three-columns/portfolio-masonry-three-columns.component';
+import { PortfolioMasonryThreeColumnsNoSpaceComponent } from './template-pages/portfolio-masonry-three-columns-no-space/portfolio-masonry-three-columns-no-space.component';
+import { PortfolioMasonryFourColumnsComponent } from './template-pages/portfolio-masonry-four-columns/portfolio-masonry-four-columns.component';
+import { PortfolioMasonryFourColumnsNoSpaceComponent } from './template-pages/portfolio-masonry-four-columns-no-space/portfolio-masonry-four-columns-no-space.component';
 
 @NgModule({
   declarations: [
@@ -104,7 +121,24 @@ import { FooterComponent } from './template-pages/footer/footer.component';
     HomepageComponent,
     HeaderComponent,
     MobileHeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PortfolioTwoColumnsComponent,
+    PortfolioTwoColumnsNoSpaceComponent,
+    PortfolioTwoColumnsWithFrameComponent,
+    PortfolioThreeColumnsComponent,
+    PortfolioThreeColumnsNoSpaceComponent,
+    PortfolioFourColumnsWithFrameComponent,
+    PortfolioThreeColumnsWithFrameComponent,
+    PortfolioFourColumnsComponent,
+    PortfolioFourColumnsNoSpaceComponent,
+    PortfolioFiveColumnsComponent,
+    PortfolioFiveColumnsNoSpaceComponent,
+    PortfolioMasonryTwoColumnsComponent,
+    PortfolioMasonryTwoColumnsNoSpaceComponent,
+    PortfolioMasonryThreeColumnsComponent,
+    PortfolioMasonryThreeColumnsNoSpaceComponent,
+    PortfolioMasonryFourColumnsComponent,
+    PortfolioMasonryFourColumnsNoSpaceComponent
   ],
   imports: [
     BrowserModule,
